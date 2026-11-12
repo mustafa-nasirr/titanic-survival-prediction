@@ -6,9 +6,9 @@
 
 A supervised binary classification project that predicts whether a Titanic passenger survived, built as a reproducible scikit-learn pipeline (imputation, scaling and encoding feed a logistic regression model).
 
-**Course:** ECE 3100, Introduction to Data Science, University of Michigan-Dearborn (September 2026)
-**Author:** Malik Nasir
-**Report:** [`report/Titanic_Survival_Prediction_Report.pdf`](report/Titanic_Survival_Prediction_Report.pdf)
+**Course:** ECE 3100, Introduction to Data Science, University of Michigan
+**Author:** Malik Mustafa Nasir
+**Report:** [`Titanic_Survival_Prediction_Report.pdf`](Titanic_Survival_Prediction_Report.pdf)
 
 ## Results at a glance
 
@@ -19,8 +19,8 @@ A supervised binary classification project that predicts whether a Titanic passe
 | Passengers analysed | 887 |
 
 <p align="center">
-  <img src="images/confusion_matrix.png" alt="Confusion matrix on the held-out test set" width="46%">
-  <img src="images/cv_scores.png" alt="Cross-validation accuracy by fold" width="52%">
+  <img src="confusion_matrix.png" alt="Confusion matrix on the held-out test set" width="46%">
+  <img src="cv_scores.png" alt="Cross-validation accuracy by fold" width="52%">
 </p>
 
 | Class | Precision | Recall | F1 | Support |
@@ -87,6 +87,6 @@ The notebook needs an internet connection to download the dataset.
 | Path | Description |
 |---|---|
 | `titanic_survival_prediction.ipynb` | Full analysis, model and evaluation |
-| `report/Titanic_Survival_Prediction_Report.pdf` | Four-page written report with figures |
-| `images/` | Figures used in this README and the report |
+| `Titanic_Survival_Prediction_Report.pdf` | Four-page written report with figures |
+| `confusion_matrix.png`, `cv_scores.png`, `class_metrics.png` | Figures used in this README and the report |
 | `requirements.txt` | Python dependencies |
