@@ -72,7 +72,7 @@ Added after the original submission and kept separate from the results above. Ea
 ## Run it yourself
 
 ```bash
-git clone https://github.com/<your-username>/titanic-survival-prediction.git
+git clone https://github.com/mustafa-nasirr/titanic-survival-prediction.git
 cd titanic-survival-prediction
 python -m venv .venv
 source .venv/bin/activate      # Windows: .venv\Scripts\activate
